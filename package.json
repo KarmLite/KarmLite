@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --mode development --watch ./KarmaLite/frontend/src/index.js --output ./KarmLite/frontend/static/frontend/main.js",
-    "build": "webpack --mode production ./KarmaLite/frontend/src/index.js --output ./KarmLite/frontend/static/frontend/main.js"
+    "dev": "webpack --mode development --watch ./KarmLite/frontend/src/index.js --output ./KarmLite/frontend/static/frontend/main.js",
+    "build": "webpack --mode production ./KarmLite/frontend/src/index.js --output ./KarmLite/frontend/static/frontend/main.js"
   },
   "repository": {
     "type": "git",
