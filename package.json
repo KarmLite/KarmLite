@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --mode development --watch ./KarmLite/frontend/src/index.js --output ./KarmLite/frontend/static/frontend/main.js",
-    "build": "webpack --mode production ./KarmLite/frontend/src/index.js --output ./KarmLite/frontend/static/frontend/main.js"
+    "dev": "webpack --mode development ./src/index.js --output ./static/frontend/main.js",
+    "build": "webpack --mode production ./src/index.js --output ./static/frontend/main.js"
   },
   "repository": {
     "type": "git",
@@ -18,17 +18,19 @@
   },
   "homepage": "https://github.com/KarmLite/KarmLite#readme",
   "devDependencies": {
-    "@babel/core": "^7.10.4",
+    "@babel/core": "^7.10.5",
     "@babel/preset-env": "^7.10.4",
     "@babel/preset-react": "^7.10.4",
     "babel-loader": "^8.1.0",
     "babel-plugin-transform-class-properties": "^6.24.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.12"
   },
   "dependencies": {
-    "prop-types": "^15.7.2",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
-  }
+    "@material-ui/core": "^4.11.0",
+    "prop-types": "^15.7.2"
+  },
+  "keywords": []
 }
