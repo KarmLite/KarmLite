@@ -9,13 +9,13 @@ import Checkbox from '@material-ui/core/Checkbox';
 import IconButton from '@material-ui/core/IconButton';
 import CommentIcon from '@material-ui/icons/Comment';
 
-const useStyles = makeStyles((theme) => ({
-  root: {
-    width: '100%',
-    maxWidth: 360,
-    backgroundColor: theme.palette.background.paper,
-  },
-}));
+// const useStyles = makeStyles((theme) => ({
+//   root: {
+//     width: '100%',
+//     maxWidth: 360,
+//     backgroundColor: theme.palette.background.paper,
+//   },
+// }));
 
 export default function CheckboxList() {
   const classes = useStyles();
