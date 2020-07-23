@@ -38,6 +38,7 @@
     "perfect-scrollbar": "1.5.0",
     "react": "16.13.1",
     "react-chartist": "0.14.3",
+    "react-compound-timer": "^1.2.0",
     "react-dom": "16.13.1",
     "react-google-maps": "9.4.5",
     "react-router-dom": "5.2.0",

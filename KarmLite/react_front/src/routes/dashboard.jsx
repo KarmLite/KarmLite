@@ -15,9 +15,18 @@ import Typography from "views/Typography/Typography.jsx";
 import Icons from "views/Icons/Icons.jsx";
 import Maps from "views/Maps/Maps.jsx";
 import NotificationsPage from "views/Notifications/Notifications.jsx";
-import UpgradeToPro from "views/UpgradeToPro/UpgradeToPro.jsx";
+import Homepage from "views/Homepage/Homepage.jsx";
+
+
 
 const dashboardRoutes = [
+  {
+    path: "/home",
+    sidebarName: "Homepage",
+    navbarName: "Home Page",
+    icon : Dashboard,
+    component: Homepage
+  },
   {
     path: "/dashboard",
     sidebarName: "Dashboard",
@@ -66,13 +75,6 @@ const dashboardRoutes = [
     navbarName: "Notifications",
     icon: Notifications,
     component: NotificationsPage
-  },
-  {
-    path: "/upgrade-to-pro",
-    sidebarName: "Upgrade To PRO",
-    navbarName: "Upgrade To PRO",
-    icon: Unarchive,
-    component: UpgradeToPro
   },
   { redirect: true, path: "/", to: "/dashboard", navbarName: "Redirect" }
 ];
